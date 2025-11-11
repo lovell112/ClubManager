@@ -49,6 +49,7 @@
             // panelText
             // 
             panelText.Controls.Add(lblText);
+            panelText.Font = new Font("Times New Roman", 19.8000011F, FontStyle.Regular, GraphicsUnit.Point, 0);
             panelText.Location = new Point(377, 150);
             panelText.Margin = new Padding(4);
             panelText.Name = "panelText";
@@ -59,10 +60,10 @@
             // 
             lblText.AutoSize = true;
             lblText.Dock = DockStyle.Fill;
-            lblText.Font = new Font("Times New Roman", 12F);
+            lblText.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblText.Location = new Point(0, 0);
             lblText.Name = "lblText";
-            lblText.Size = new Size(60, 22);
+            lblText.Size = new Size(67, 26);
             lblText.TabIndex = 0;
             lblText.Text = "label1";
             // 

@@ -73,6 +73,16 @@ namespace ClubManager.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Bao {
+            get {
+                object obj = ResourceManager.GetObject("Bao", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap CEOBao {
             get {
                 object obj = ResourceManager.GetObject("CEOBao", resourceCulture);
@@ -156,6 +166,16 @@ namespace ClubManager.Properties {
         internal static System.Drawing.Bitmap Logo {
             get {
                 object obj = ResourceManager.GetObject("Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Long {
+            get {
+                object obj = ResourceManager.GetObject("Long", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

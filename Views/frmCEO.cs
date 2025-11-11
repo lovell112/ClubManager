@@ -33,9 +33,9 @@ namespace ClubManager.Views
 
             #region CEO 
             CEOs[0] = new CEO("Nguyen Hoang Long", new PictureBox(), "29-10-2006", "TP.Ben Tre, Ben Tre");
-            CEOs[0].Image.Image = global::ClubManager.Properties.Resources.CEOLong;
+            CEOs[0].Image.Image = global::ClubManager.Properties.Resources.Long;
 
-            CEOs[1] = new CEO("Tran Nguyen Xuan Son", new PictureBox(), "17-12-2006", "Binh Dinh, Gia Lai");
+            CEOs[1] = new CEO("Tran Nguyen Xuan Son", new PictureBox(), "17-12-2006", "Binh Dinh");
             CEOs[1].Image.Image = global::ClubManager.Properties.Resources.CEOSon;
 
             CEOs[2] = new CEO("Dong Quoc Thai", new PictureBox(), "31-8-2006", "Binh Chanh, Tp.Ho Chi Minh");
@@ -44,10 +44,8 @@ namespace ClubManager.Views
             CEOs[3] = new CEO("Dang Nhat Tinh", new PictureBox(), "null", "null");
             CEOs[3].Image.Image = global::ClubManager.Properties.Resources.CEOTinh;
 
-            CEOs[4] = new CEO("Kha Thai Bao", new PictureBox(), "null", "null");
-            CEOs[4].Image.Image = global::ClubManager.Properties.Resources.CEOBao;
-
-
+            CEOs[4] = new CEO("Kha Thai Bao", new PictureBox(), "01-05-2006", "Can Tho");
+            CEOs[4].Image.Image = global::ClubManager.Properties.Resources.Bao;
             #endregion
         }
 

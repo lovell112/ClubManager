@@ -148,4 +148,10 @@
   <data name="CEOTinh" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\frmCEO\CEOTinh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Bao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frmCEO\Bao.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Long" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frmCEO\Long.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
