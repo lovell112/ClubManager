@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\",
+  "WorkspaceRootPath": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|c:\\2025-2026_hk1\\lap_trinh_tren_windows\\ck_doan_new\\clubmanager\\views\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:views\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|d:\\hoctap\\hoctapreal\\nam2-2025\\winform\\doan\\clubmanager\\views\\frmceoinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:views\\frmceoinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|c:\\2025-2026_hk1\\lap_trinh_tren_windows\\ck_doan_new\\clubmanager\\views\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:views\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|d:\\hoctap\\hoctapreal\\nam2-2025\\winform\\doan\\clubmanager\\views\\frmceo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:views\\frmceo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|c:\\2025-2026_hk1\\lap_trinh_tren_windows\\ck_doan_new\\clubmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|d:\\hoctap\\hoctapreal\\nam2-2025\\winform\\doan\\clubmanager\\views\\frmceo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:views\\frmceo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|d:\\hoctap\\hoctapreal\\nam2-2025\\winform\\doan\\clubmanager\\views\\frmceoinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:views\\frmceoinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +26,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmLogin.cs [Design]",
-              "DocumentMoniker": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmLogin.cs",
-              "RelativeDocumentMoniker": "Views\\frmLogin.cs",
-              "ToolTip": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmLogin.cs [Design]*",
-              "RelativeToolTip": "Views\\frmLogin.cs [Design]*",
+              "Title": "frmCEOInfor.cs [Design]",
+              "DocumentMoniker": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Views\\frmCEOInfor.cs",
+              "RelativeDocumentMoniker": "Views\\frmCEOInfor.cs",
+              "ToolTip": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Views\\frmCEOInfor.cs [Design]",
+              "RelativeToolTip": "Views\\frmCEOInfor.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T09:44:04.283Z",
+              "WhenOpened": "2025-11-11T15:14:31.509Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmCEO.cs [Design]",
+              "DocumentMoniker": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Views\\frmCEO.cs",
+              "RelativeDocumentMoniker": "Views\\frmCEO.cs",
+              "ToolTip": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Views\\frmCEO.cs [Design]",
+              "RelativeToolTip": "Views\\frmCEO.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T15:14:30.898Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Title": "frmCEO.cs",
+              "DocumentMoniker": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Views\\frmCEO.cs",
+              "RelativeDocumentMoniker": "Views\\frmCEO.cs",
+              "ToolTip": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Views\\frmCEO.cs",
+              "RelativeToolTip": "Views\\frmCEO.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCsAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T09:20:39.338Z",
+              "WhenOpened": "2025-11-11T14:30:55.404Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmLogin.cs",
-              "DocumentMoniker": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmLogin.cs",
-              "RelativeDocumentMoniker": "Views\\frmLogin.cs",
-              "ToolTip": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmLogin.cs*",
-              "RelativeToolTip": "Views\\frmLogin.cs*",
-              "ViewState": "AgIAACQAAAAAAAAAAAAmwDcAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "frmCEOInfor.cs",
+              "DocumentMoniker": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Views\\frmCEOInfor.cs",
+              "RelativeDocumentMoniker": "Views\\frmCEOInfor.cs",
+              "ToolTip": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Views\\frmCEOInfor.cs",
+              "RelativeToolTip": "Views\\frmCEOInfor.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwCQAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T09:12:15.275Z",
+              "WhenOpened": "2025-11-11T14:52:29.184Z",
               "EditorCaption": ""
             }
           ]
