@@ -31,8 +31,9 @@ namespace ClubManager.Views
             };
             txtPass.TextChanged += (s, args) =>
             {
-                bool coTen = !string.IsNullOrWhiteSpace(txtPass.Text);
-                btnLogin.Enabled = coTen;
+                bool coTen = !string.IsNullOrWhiteSpace(txtUser.Text);
+                bool coPass = !string.IsNullOrWhiteSpace(txtPass.Text);
+                if (coTen && coPass) btnLogin.Enabled = true;
             };
             #endregion
         }
