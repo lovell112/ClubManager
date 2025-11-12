@@ -1,30 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\",
+  "WorkspaceRootPath": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|d:\\hoctap\\hoctapreal\\nam2-2025\\winform\\doan\\clubmanager\\views\\frmceoinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:views\\frmceoinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|c:\\2025-2026_hk1\\lap_trinh_tren_windows\\ck_doan_new\\clubmanager\\views\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:views\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|d:\\hoctap\\hoctapreal\\nam2-2025\\winform\\doan\\clubmanager\\views\\frmceo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:views\\frmceo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|c:\\2025-2026_hk1\\lap_trinh_tren_windows\\ck_doan_new\\clubmanager\\views\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:views\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\views\\frmceo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:views\\frmceo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|c:\\2025-2026_hk1\\lap_trinh_tren_windows\\ck_doan_new\\clubmanager\\views\\frmdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:views\\frmdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|d:\\hoctap\\hoctapreal\\nam2-2025\\winform\\doan\\clubmanager\\views\\frmceoinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\views\\frmlistcoach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:views\\frmlistcoach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|c:\\2025-2026_hk1\\lap_trinh_tren_windows\\ck_doan_new\\clubmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\views\\frmdanhdachcauthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:views\\frmdanhdachcauthu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\views\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:views\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\views\\frmceoinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:views\\frmceoinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|d:\\hoctap\\hoctapreal\\nam2-2025\\winform\\doan\\clubmanager\\models\\ceo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:models\\ceo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|c:\\2025-2026_hk1\\lap_trinh_tren_windows\\ck_doan_new\\clubmanager\\views\\frmceoinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:views\\frmceoinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|d:\\hoctap\\hoctapreal\\nam2-2025\\winform\\doan\\clubmanager\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\views\\frmceo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:views\\frmceo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|c:\\2025-2026_hk1\\lap_trinh_tren_windows\\ck_doan_new\\clubmanager\\views\\frmceo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:views\\frmceo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|c:\\2025-2026_hk1\\lap_trinh_tren_windows\\ck_doan_new\\clubmanager\\models\\ceo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:models\\ceo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,106 +58,148 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Resources.resx",
-              "DocumentMoniker": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Properties\\Resources.resx",
-              "RelativeDocumentMoniker": "Properties\\Resources.resx",
-              "ToolTip": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Properties\\Resources.resx",
-              "RelativeToolTip": "Properties\\Resources.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-11-11T16:03:53.391Z",
-              "EditorCaption": ""
+              "DocumentIndex": 1,
+              "Title": "frmDashBoard.cs [Design]",
+              "DocumentMoniker": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmDashBoard.cs",
+              "RelativeDocumentMoniker": "Views\\frmDashBoard.cs",
+              "ToolTip": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmDashBoard.cs [Design]*",
+              "RelativeToolTip": "Views\\frmDashBoard.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T10:40:12.84Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CEO.cs",
-              "DocumentMoniker": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Models\\CEO.cs",
-              "RelativeDocumentMoniker": "Models\\CEO.cs",
-              "ToolTip": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Models\\CEO.cs",
-              "RelativeToolTip": "Models\\CEO.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA1wAwAAAAtAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T16:01:14.172Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmCEOInfor.cs [Design]",
-              "DocumentMoniker": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Views\\frmCEOInfor.cs",
-              "RelativeDocumentMoniker": "Views\\frmCEOInfor.cs",
-              "ToolTip": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Views\\frmCEOInfor.cs [Design]",
-              "RelativeToolTip": "Views\\frmCEOInfor.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T15:14:31.509Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-12T10:35:41.233Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "frmCEO.cs [Design]",
-              "DocumentMoniker": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Views\\frmCEO.cs",
-              "RelativeDocumentMoniker": "Views\\frmCEO.cs",
-              "ToolTip": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Views\\frmCEO.cs [Design]",
-              "RelativeToolTip": "Views\\frmCEO.cs [Design]",
+              "Title": "frmDashBoard.Designer.cs",
+              "DocumentMoniker": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmDashBoard.Designer.cs",
+              "RelativeDocumentMoniker": "Views\\frmDashBoard.Designer.cs",
+              "ToolTip": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmDashBoard.Designer.cs",
+              "RelativeToolTip": "Views\\frmDashBoard.Designer.cs",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAAAOIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T15:14:30.898Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmCEO.cs",
-              "DocumentMoniker": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Views\\frmCEO.cs",
-              "RelativeDocumentMoniker": "Views\\frmCEO.cs",
-              "ToolTip": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Views\\frmCEO.cs",
-              "RelativeToolTip": "Views\\frmCEO.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwCMAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T14:30:55.404Z",
+              "WhenOpened": "2025-11-12T09:02:49.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmCEOInfor.cs",
-              "DocumentMoniker": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Views\\frmCEOInfor.cs",
+              "Title": "frmDashBoard.cs",
+              "DocumentMoniker": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmDashBoard.cs",
+              "RelativeDocumentMoniker": "Views\\frmDashBoard.cs",
+              "ToolTip": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmDashBoard.cs*",
+              "RelativeToolTip": "Views\\frmDashBoard.cs*",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T09:02:08.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmListCoach.cs [Design]",
+              "DocumentMoniker": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmListCoach.cs",
+              "RelativeDocumentMoniker": "Views\\frmListCoach.cs",
+              "ToolTip": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmListCoach.cs [Design]",
+              "RelativeToolTip": "Views\\frmListCoach.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T08:41:41.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmDanhDachCauThu.cs [Design]",
+              "DocumentMoniker": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmDanhDachCauThu.cs",
+              "RelativeDocumentMoniker": "Views\\frmDanhDachCauThu.cs",
+              "ToolTip": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmDanhDachCauThu.cs [Design]",
+              "RelativeToolTip": "Views\\frmDanhDachCauThu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T08:40:51.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmLogin.cs [Design]",
+              "DocumentMoniker": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmLogin.cs",
+              "RelativeDocumentMoniker": "Views\\frmLogin.cs",
+              "ToolTip": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmLogin.cs [Design]",
+              "RelativeToolTip": "Views\\frmLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T07:41:18.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CEO.cs",
+              "DocumentMoniker": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Models\\CEO.cs",
+              "RelativeDocumentMoniker": "Models\\CEO.cs",
+              "ToolTip": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Models\\CEO.cs",
+              "RelativeToolTip": "Models\\CEO.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T16:01:14.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmCEOInfor.cs [Design]",
+              "DocumentMoniker": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmCEOInfor.cs",
               "RelativeDocumentMoniker": "Views\\frmCEOInfor.cs",
-              "ToolTip": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Views\\frmCEOInfor.cs",
+              "ToolTip": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmCEOInfor.cs [Design]",
+              "RelativeToolTip": "Views\\frmCEOInfor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T15:14:31.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmCEO.cs [Design]",
+              "DocumentMoniker": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmCEO.cs",
+              "RelativeDocumentMoniker": "Views\\frmCEO.cs",
+              "ToolTip": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmCEO.cs [Design]",
+              "RelativeToolTip": "Views\\frmCEO.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T15:14:30.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmCEO.cs",
+              "DocumentMoniker": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmCEO.cs",
+              "RelativeDocumentMoniker": "Views\\frmCEO.cs",
+              "ToolTip": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmCEO.cs",
+              "RelativeToolTip": "Views\\frmCEO.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwCMAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T14:30:55.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmCEOInfor.cs",
+              "DocumentMoniker": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmCEOInfor.cs",
+              "RelativeDocumentMoniker": "Views\\frmCEOInfor.cs",
+              "ToolTip": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmCEOInfor.cs",
               "RelativeToolTip": "Views\\frmCEOInfor.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAcwB4AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T14:52:29.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T14:52:29.184Z"
             }
           ]
         }

@@ -48,6 +48,7 @@
             // 
             // imgTinh
             // 
+            imgTinh.Cursor = Cursors.Hand;
             imgTinh.Image = Properties.Resources.CEOTinh;
             imgTinh.Location = new Point(36, 335);
             imgTinh.Margin = new Padding(3, 2, 3, 2);
@@ -60,6 +61,7 @@
             // 
             // imgLong
             // 
+            imgLong.Cursor = Cursors.Hand;
             imgLong.Image = Properties.Resources.CEOLong;
             imgLong.Location = new Point(412, 335);
             imgLong.Margin = new Padding(3, 2, 3, 2);
@@ -72,6 +74,7 @@
             // 
             // imgSon
             // 
+            imgSon.Cursor = Cursors.Hand;
             imgSon.Image = Properties.Resources.CEOSon;
             imgSon.Location = new Point(792, 335);
             imgSon.Margin = new Padding(3, 2, 3, 2);
@@ -84,6 +87,7 @@
             // 
             // imgThai
             // 
+            imgThai.Cursor = Cursors.Hand;
             imgThai.Image = Properties.Resources.CEOTHAI;
             imgThai.Location = new Point(1187, 335);
             imgThai.Margin = new Padding(3, 2, 3, 2);
@@ -96,6 +100,7 @@
             // 
             // imgBao
             // 
+            imgBao.Cursor = Cursors.Hand;
             imgBao.Image = Properties.Resources.CEOBao;
             imgBao.Location = new Point(1580, 335);
             imgBao.Margin = new Padding(3, 2, 3, 2);

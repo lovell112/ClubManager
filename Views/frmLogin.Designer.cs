@@ -164,11 +164,11 @@
             labelName.AutoSize = true;
             labelName.Font = new Font("Times New Roman", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             labelName.ForeColor = SystemColors.Highlight;
-            labelName.Location = new Point(18, 9);
+            labelName.Location = new Point(19, 10);
             labelName.Name = "labelName";
             labelName.Size = new Size(263, 64);
             labelName.TabIndex = 0;
-            labelName.Text = "  REAL MADRID \r\nCLUB DE FÚTBOL";
+            labelName.Text = "   REAL MADRID \r\nCLUB DE FÚTBOL";
             // 
             // panelLogo
             // 
