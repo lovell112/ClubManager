@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -91,11 +92,7 @@ namespace ClubManager.Views
             if(txtUser.Text == "Son" && txtPass.Text == "Lo")
             {
                 MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                this.Hide(); 
-                frmCEO mainForm = new frmCEO();
-                mainForm.Show();
-                // Thực hiện các hành động sau khi đăng nhập thành công
-
+                this.Close();
             }
             else
             {

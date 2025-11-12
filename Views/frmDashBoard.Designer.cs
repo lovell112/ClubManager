@@ -38,23 +38,23 @@ partial class frmDashBoard
         toolStripSplitButton1 = new ToolStripSplitButton();
         panelHeader = new Panel();
         menuStrip1 = new MenuStrip();
-        hỆTHỐNGToolStripMenuItem = new ToolStripMenuItem();
-        đĂNGNHẬPToolStripMenuItem = new ToolStripMenuItem();
-        tHOÁTToolStripMenuItem = new ToolStripMenuItem();
-        tHOÁTToolStripMenuItem1 = new ToolStripMenuItem();
-        dANHMỤCToolStripMenuItem = new ToolStripMenuItem();
-        qUẢNLÝCẦUTHỦToolStripMenuItem = new ToolStripMenuItem();
-        qUẢNLÝHLVToolStripMenuItem = new ToolStripMenuItem();
+        SystemToolStripMenuItem = new ToolStripMenuItem();
+        LoginToolStripMenuItem = new ToolStripMenuItem();
         toolStripSeparator1 = new ToolStripSeparator();
-        dANHHIỆUToolStripMenuItem = new ToolStripMenuItem();
-        cỬAHÀNGToolStripMenuItem = new ToolStripMenuItem();
-        hỖTRỢToolStripMenuItem = new ToolStripMenuItem();
-        cỬAHÀNGToolStripMenuItem1 = new ToolStripMenuItem();
-        hỖTRỢToolStripMenuItem1 = new ToolStripMenuItem();
-        dANHSÁCHCẦUTHỦToolStripMenuItem = new ToolStripMenuItem();
-        dANHSÁCHHLVToolStripMenuItem = new ToolStripMenuItem();
-        hỢPĐỒNGToolStripMenuItem = new ToolStripMenuItem();
-        hỢPĐỒNGToolStripMenuItem1 = new ToolStripMenuItem();
+        LogoutToolStripMenuItem = new ToolStripMenuItem();
+        ExitToolStripMenuItem = new ToolStripMenuItem();
+        CategoryToolStripMenuItem = new ToolStripMenuItem();
+        TitleToolStripMenuItem = new ToolStripMenuItem();
+        MatchScheduleMenuItem = new ToolStripMenuItem();
+        ShopToolStripMenuItem = new ToolStripMenuItem();
+        PlayerManagementToolStripMenuItem = new ToolStripMenuItem();
+        PlayerListToolStripMenuItem = new ToolStripMenuItem();
+        PlayerContractToolStripMenuItem = new ToolStripMenuItem();
+        ManageCoachToolStripMenuItem = new ToolStripMenuItem();
+        ListCoachToolStripMenuItem = new ToolStripMenuItem();
+        CoachContractToolStripMenuItem = new ToolStripMenuItem();
+        ScheduleMenuItem = new ToolStripMenuItem();
+        HelpToolStripMenuItem1 = new ToolStripMenuItem();
         panelLeft.SuspendLayout();
         ((System.ComponentModel.ISupportInitialize)picC1).BeginInit();
         ((System.ComponentModel.ISupportInitialize)picLogo).BeginInit();
@@ -130,126 +130,127 @@ partial class frmDashBoard
         // menuStrip1
         // 
         menuStrip1.ImageScalingSize = new Size(20, 20);
-        menuStrip1.Items.AddRange(new ToolStripItem[] { hỆTHỐNGToolStripMenuItem, dANHMỤCToolStripMenuItem, qUẢNLÝCẦUTHỦToolStripMenuItem, qUẢNLÝHLVToolStripMenuItem, hỖTRỢToolStripMenuItem, hỖTRỢToolStripMenuItem1 });
+        menuStrip1.Items.AddRange(new ToolStripItem[] { SystemToolStripMenuItem, CategoryToolStripMenuItem, PlayerManagementToolStripMenuItem, ManageCoachToolStripMenuItem, ScheduleMenuItem, HelpToolStripMenuItem1 });
         menuStrip1.Location = new Point(0, 0);
         menuStrip1.Name = "menuStrip1";
         menuStrip1.Size = new Size(1749, 34);
         menuStrip1.TabIndex = 0;
         menuStrip1.Text = "menuStrip1";
         // 
-        // hỆTHỐNGToolStripMenuItem
+        // SystemToolStripMenuItem
         // 
-        hỆTHỐNGToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { đĂNGNHẬPToolStripMenuItem, toolStripSeparator1, tHOÁTToolStripMenuItem, tHOÁTToolStripMenuItem1 });
-        hỆTHỐNGToolStripMenuItem.Font = new Font("Times New Roman", 13.2000008F, FontStyle.Regular, GraphicsUnit.Point, 0);
-        hỆTHỐNGToolStripMenuItem.Name = "hỆTHỐNGToolStripMenuItem";
-        hỆTHỐNGToolStripMenuItem.Size = new Size(138, 30);
-        hỆTHỐNGToolStripMenuItem.Text = "HỆ THỐNG";
+        SystemToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { LoginToolStripMenuItem, toolStripSeparator1, LogoutToolStripMenuItem, ExitToolStripMenuItem });
+        SystemToolStripMenuItem.Font = new Font("Times New Roman", 13.2000008F, FontStyle.Regular, GraphicsUnit.Point, 0);
+        SystemToolStripMenuItem.Name = "SystemToolStripMenuItem";
+        SystemToolStripMenuItem.Size = new Size(138, 30);
+        SystemToolStripMenuItem.Text = "HỆ THỐNG";
         // 
-        // đĂNGNHẬPToolStripMenuItem
+        // LoginToolStripMenuItem
         // 
-        đĂNGNHẬPToolStripMenuItem.Name = "đĂNGNHẬPToolStripMenuItem";
-        đĂNGNHẬPToolStripMenuItem.Size = new Size(230, 30);
-        đĂNGNHẬPToolStripMenuItem.Text = "ĐĂNG NHẬP";
-        // 
-        // tHOÁTToolStripMenuItem
-        // 
-        tHOÁTToolStripMenuItem.Name = "tHOÁTToolStripMenuItem";
-        tHOÁTToolStripMenuItem.Size = new Size(230, 30);
-        tHOÁTToolStripMenuItem.Text = "ĐĂNG XUẤT";
-        // 
-        // tHOÁTToolStripMenuItem1
-        // 
-        tHOÁTToolStripMenuItem1.Name = "tHOÁTToolStripMenuItem1";
-        tHOÁTToolStripMenuItem1.Size = new Size(230, 30);
-        tHOÁTToolStripMenuItem1.Text = "THOÁT";
-        tHOÁTToolStripMenuItem1.Click += tHOÁTToolStripMenuItem1_Click;
-        // 
-        // dANHMỤCToolStripMenuItem
-        // 
-        dANHMỤCToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { dANHHIỆUToolStripMenuItem, cỬAHÀNGToolStripMenuItem, cỬAHÀNGToolStripMenuItem1 });
-        dANHMỤCToolStripMenuItem.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-        dANHMỤCToolStripMenuItem.Name = "dANHMỤCToolStripMenuItem";
-        dANHMỤCToolStripMenuItem.Size = new Size(144, 30);
-        dANHMỤCToolStripMenuItem.Text = "DANH MỤC";
-        // 
-        // qUẢNLÝCẦUTHỦToolStripMenuItem
-        // 
-        qUẢNLÝCẦUTHỦToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { dANHSÁCHCẦUTHỦToolStripMenuItem, hỢPĐỒNGToolStripMenuItem });
-        qUẢNLÝCẦUTHỦToolStripMenuItem.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-        qUẢNLÝCẦUTHỦToolStripMenuItem.Name = "qUẢNLÝCẦUTHỦToolStripMenuItem";
-        qUẢNLÝCẦUTHỦToolStripMenuItem.Size = new Size(228, 30);
-        qUẢNLÝCẦUTHỦToolStripMenuItem.Text = "QUẢN LÝ CẦU THỦ";
-        // 
-        // qUẢNLÝHLVToolStripMenuItem
-        // 
-        qUẢNLÝHLVToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { dANHSÁCHHLVToolStripMenuItem, hỢPĐỒNGToolStripMenuItem1 });
-        qUẢNLÝHLVToolStripMenuItem.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-        qUẢNLÝHLVToolStripMenuItem.Name = "qUẢNLÝHLVToolStripMenuItem";
-        qUẢNLÝHLVToolStripMenuItem.Size = new Size(174, 30);
-        qUẢNLÝHLVToolStripMenuItem.Text = "QUẢN LÝ HLV";
+        LoginToolStripMenuItem.Name = "LoginToolStripMenuItem";
+        LoginToolStripMenuItem.Size = new Size(230, 30);
+        LoginToolStripMenuItem.Text = "ĐĂNG NHẬP";
+        LoginToolStripMenuItem.Click += LoginToolStripMenuItem_Click;
         // 
         // toolStripSeparator1
         // 
         toolStripSeparator1.Name = "toolStripSeparator1";
         toolStripSeparator1.Size = new Size(227, 6);
         // 
-        // dANHHIỆUToolStripMenuItem
+        // LogoutToolStripMenuItem
         // 
-        dANHHIỆUToolStripMenuItem.Name = "dANHHIỆUToolStripMenuItem";
-        dANHHIỆUToolStripMenuItem.Size = new Size(246, 30);
-        dANHHIỆUToolStripMenuItem.Text = "DANH HIỆU";
+        LogoutToolStripMenuItem.Name = "LogoutToolStripMenuItem";
+        LogoutToolStripMenuItem.Size = new Size(230, 30);
+        LogoutToolStripMenuItem.Text = "ĐĂNG XUẤT";
+        LogoutToolStripMenuItem.Click += LogoutToolStripMenuItem_Click;
         // 
-        // cỬAHÀNGToolStripMenuItem
+        // ExitToolStripMenuItem
         // 
-        cỬAHÀNGToolStripMenuItem.Name = "cỬAHÀNGToolStripMenuItem";
-        cỬAHÀNGToolStripMenuItem.Size = new Size(246, 30);
-        cỬAHÀNGToolStripMenuItem.Text = "LỊCH THI ĐẤU";
+        ExitToolStripMenuItem.Name = "ExitToolStripMenuItem";
+        ExitToolStripMenuItem.Size = new Size(230, 30);
+        ExitToolStripMenuItem.Text = "THOÁT";
+        ExitToolStripMenuItem.Click += ExitToolStripMenuItem_Click;
         // 
-        // hỖTRỢToolStripMenuItem
+        // CategoryToolStripMenuItem
         // 
-        hỖTRỢToolStripMenuItem.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-        hỖTRỢToolStripMenuItem.Name = "hỖTRỢToolStripMenuItem";
-        hỖTRỢToolStripMenuItem.Size = new Size(83, 30);
-        hỖTRỢToolStripMenuItem.Text = "LỊCH ";
+        CategoryToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { TitleToolStripMenuItem, MatchScheduleMenuItem, ShopToolStripMenuItem });
+        CategoryToolStripMenuItem.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+        CategoryToolStripMenuItem.Name = "CategoryToolStripMenuItem";
+        CategoryToolStripMenuItem.Size = new Size(144, 30);
+        CategoryToolStripMenuItem.Text = "DANH MỤC";
         // 
-        // cỬAHÀNGToolStripMenuItem1
+        // TitleToolStripMenuItem
         // 
-        cỬAHÀNGToolStripMenuItem1.Name = "cỬAHÀNGToolStripMenuItem1";
-        cỬAHÀNGToolStripMenuItem1.Size = new Size(246, 30);
-        cỬAHÀNGToolStripMenuItem1.Text = "CỬA HÀNG";
+        TitleToolStripMenuItem.Name = "TitleToolStripMenuItem";
+        TitleToolStripMenuItem.Size = new Size(246, 30);
+        TitleToolStripMenuItem.Text = "DANH HIỆU";
         // 
-        // hỖTRỢToolStripMenuItem1
+        // MatchScheduleMenuItem
         // 
-        hỖTRỢToolStripMenuItem1.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-        hỖTRỢToolStripMenuItem1.Name = "hỖTRỢToolStripMenuItem1";
-        hỖTRỢToolStripMenuItem1.Size = new Size(110, 30);
-        hỖTRỢToolStripMenuItem1.Text = "HỖ TRỢ";
-       
+        MatchScheduleMenuItem.Name = "MatchScheduleMenuItem";
+        MatchScheduleMenuItem.Size = new Size(246, 30);
+        MatchScheduleMenuItem.Text = "LỊCH THI ĐẤU";
         // 
-        // dANHSÁCHCẦUTHỦToolStripMenuItem
+        // ShopToolStripMenuItem
         // 
-        dANHSÁCHCẦUTHỦToolStripMenuItem.Font = new Font("Times New Roman", 13.2000008F, FontStyle.Regular, GraphicsUnit.Point, 0);
-        dANHSÁCHCẦUTHỦToolStripMenuItem.Name = "dANHSÁCHCẦUTHỦToolStripMenuItem";
-        dANHSÁCHCẦUTHỦToolStripMenuItem.Size = new Size(329, 30);
-        dANHSÁCHCẦUTHỦToolStripMenuItem.Text = "DANH SÁCH CẦU THỦ";
+        ShopToolStripMenuItem.Name = "ShopToolStripMenuItem";
+        ShopToolStripMenuItem.Size = new Size(246, 30);
+        ShopToolStripMenuItem.Text = "CỬA HÀNG";
         // 
-        // dANHSÁCHHLVToolStripMenuItem
+        // PlayerManagementToolStripMenuItem
         // 
-        dANHSÁCHHLVToolStripMenuItem.Name = "dANHSÁCHHLVToolStripMenuItem";
-        dANHSÁCHHLVToolStripMenuItem.Size = new Size(275, 30);
-        dANHSÁCHHLVToolStripMenuItem.Text = "DANH SÁCH HLV";
+        PlayerManagementToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { PlayerListToolStripMenuItem, PlayerContractToolStripMenuItem });
+        PlayerManagementToolStripMenuItem.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+        PlayerManagementToolStripMenuItem.Name = "PlayerManagementToolStripMenuItem";
+        PlayerManagementToolStripMenuItem.Size = new Size(228, 30);
+        PlayerManagementToolStripMenuItem.Text = "QUẢN LÝ CẦU THỦ";
         // 
-        // hỢPĐỒNGToolStripMenuItem
+        // PlayerListToolStripMenuItem
         // 
-        hỢPĐỒNGToolStripMenuItem.Name = "hỢPĐỒNGToolStripMenuItem";
-        hỢPĐỒNGToolStripMenuItem.Size = new Size(329, 30);
-        hỢPĐỒNGToolStripMenuItem.Text = "HỢP ĐỒNG";
+        PlayerListToolStripMenuItem.Font = new Font("Times New Roman", 13.2000008F, FontStyle.Regular, GraphicsUnit.Point, 0);
+        PlayerListToolStripMenuItem.Name = "PlayerListToolStripMenuItem";
+        PlayerListToolStripMenuItem.Size = new Size(329, 30);
+        PlayerListToolStripMenuItem.Text = "DANH SÁCH CẦU THỦ";
         // 
-        // hỢPĐỒNGToolStripMenuItem1
+        // PlayerContractToolStripMenuItem
         // 
-        hỢPĐỒNGToolStripMenuItem1.Name = "hỢPĐỒNGToolStripMenuItem1";
-        hỢPĐỒNGToolStripMenuItem1.Size = new Size(275, 30);
-        hỢPĐỒNGToolStripMenuItem1.Text = "HỢP ĐỒNG";
+        PlayerContractToolStripMenuItem.Name = "PlayerContractToolStripMenuItem";
+        PlayerContractToolStripMenuItem.Size = new Size(329, 30);
+        PlayerContractToolStripMenuItem.Text = "HỢP ĐỒNG";
+        // 
+        // ManageCoachToolStripMenuItem
+        // 
+        ManageCoachToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { ListCoachToolStripMenuItem, CoachContractToolStripMenuItem });
+        ManageCoachToolStripMenuItem.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+        ManageCoachToolStripMenuItem.Name = "ManageCoachToolStripMenuItem";
+        ManageCoachToolStripMenuItem.Size = new Size(174, 30);
+        ManageCoachToolStripMenuItem.Text = "QUẢN LÝ HLV";
+        // 
+        // ListCoachToolStripMenuItem
+        // 
+        ListCoachToolStripMenuItem.Name = "ListCoachToolStripMenuItem";
+        ListCoachToolStripMenuItem.Size = new Size(275, 30);
+        ListCoachToolStripMenuItem.Text = "DANH SÁCH HLV";
+        // 
+        // CoachContractToolStripMenuItem
+        // 
+        CoachContractToolStripMenuItem.Name = "CoachContractToolStripMenuItem";
+        CoachContractToolStripMenuItem.Size = new Size(275, 30);
+        CoachContractToolStripMenuItem.Text = "HỢP ĐỒNG";
+        // 
+        // ScheduleMenuItem
+        // 
+        ScheduleMenuItem.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+        ScheduleMenuItem.Name = "ScheduleMenuItem";
+        ScheduleMenuItem.Size = new Size(83, 30);
+        ScheduleMenuItem.Text = "LỊCH ";
+        // 
+        // HelpToolStripMenuItem1
+        // 
+        HelpToolStripMenuItem1.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+        HelpToolStripMenuItem1.Name = "HelpToolStripMenuItem1";
+        HelpToolStripMenuItem1.Size = new Size(110, 30);
+        HelpToolStripMenuItem1.Text = "HỖ TRỢ";
         // 
         // frmDashBoard
         // 
@@ -261,7 +262,10 @@ partial class frmDashBoard
         Controls.Add(panelLeft);
         Icon = (Icon)resources.GetObject("$this.Icon");
         Name = "frmDashBoard";
+        StartPosition = FormStartPosition.CenterScreen;
         Text = "Dashboard";
+        WindowState = FormWindowState.Maximized;
+        Load += frmDashBoard_Load;
         panelLeft.ResumeLayout(false);
         ((System.ComponentModel.ISupportInitialize)picC1).EndInit();
         ((System.ComponentModel.ISupportInitialize)picLogo).EndInit();
@@ -285,21 +289,21 @@ partial class frmDashBoard
     private ToolStripSplitButton toolStripSplitButton1;
     private Panel panelHeader;
     private MenuStrip menuStrip1;
-    private ToolStripMenuItem hỆTHỐNGToolStripMenuItem;
-    private ToolStripMenuItem đĂNGNHẬPToolStripMenuItem;
-    private ToolStripMenuItem tHOÁTToolStripMenuItem;
-    private ToolStripMenuItem dANHMỤCToolStripMenuItem;
-    private ToolStripMenuItem qUẢNLÝCẦUTHỦToolStripMenuItem;
-    private ToolStripMenuItem qUẢNLÝHLVToolStripMenuItem;
-    private ToolStripMenuItem tHOÁTToolStripMenuItem1;
+    private ToolStripMenuItem SystemToolStripMenuItem;
+    private ToolStripMenuItem LoginToolStripMenuItem;
+    private ToolStripMenuItem LogoutToolStripMenuItem;
+    private ToolStripMenuItem CategoryToolStripMenuItem;
+    private ToolStripMenuItem PlayerManagementToolStripMenuItem;
+    private ToolStripMenuItem ManageCoachToolStripMenuItem;
+    private ToolStripMenuItem ExitToolStripMenuItem;
     private ToolStripSeparator toolStripSeparator1;
-    private ToolStripMenuItem dANHHIỆUToolStripMenuItem;
-    private ToolStripMenuItem cỬAHÀNGToolStripMenuItem;
-    private ToolStripMenuItem cỬAHÀNGToolStripMenuItem1;
-    private ToolStripMenuItem hỖTRỢToolStripMenuItem;
-    private ToolStripMenuItem hỖTRỢToolStripMenuItem1;
-    private ToolStripMenuItem dANHSÁCHCẦUTHỦToolStripMenuItem;
-    private ToolStripMenuItem hỢPĐỒNGToolStripMenuItem;
-    private ToolStripMenuItem dANHSÁCHHLVToolStripMenuItem;
-    private ToolStripMenuItem hỢPĐỒNGToolStripMenuItem1;
+    private ToolStripMenuItem TitleToolStripMenuItem;
+    private ToolStripMenuItem MatchScheduleMenuItem;
+    private ToolStripMenuItem ShopToolStripMenuItem;
+    private ToolStripMenuItem ScheduleMenuItem;
+    private ToolStripMenuItem HelpToolStripMenuItem1;
+    private ToolStripMenuItem PlayerListToolStripMenuItem;
+    private ToolStripMenuItem PlayerContractToolStripMenuItem;
+    private ToolStripMenuItem ListCoachToolStripMenuItem;
+    private ToolStripMenuItem CoachContractToolStripMenuItem;
 }

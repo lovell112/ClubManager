@@ -41,7 +41,7 @@ namespace ClubManager.Views
             CEOs[2] = new CEO("Dong Quoc Thai", new PictureBox(), "31-8-2006", "Binh Chanh, Tp.Ho Chi Minh");
             CEOs[2].Image.Image = global::ClubManager.Properties.Resources.CEOTHAI;
 
-            CEOs[3] = new CEO("Dang Nhat Tinh", new PictureBox(), "null", "null");
+            CEOs[3] = new CEO("Dang Nhat Tinh", new PictureBox(), "26-6-2006", "Kien Giang");
             CEOs[3].Image.Image = global::ClubManager.Properties.Resources.CEOTinh;
 
             CEOs[4] = new CEO("Kha Thai Bao", new PictureBox(), "01-05-2006", "Can Tho");
