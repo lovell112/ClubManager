@@ -94,7 +94,7 @@
             btnLogin.TabIndex = 2;
             btnLogin.Text = "LOGIN";
             btnLogin.UseVisualStyleBackColor = false;
-            btnLogin.Click += btnLogin_Click_1;
+            btnLogin.Click += btnLogin_Click;
             btnLogin.MouseEnter += btnLogin_MouseEnter;
             btnLogin.MouseLeave += btnLogin_MouseLeave;
             // 
@@ -189,6 +189,7 @@
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "frmLogin";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "LOGIN";
             Load += frmLogin_Load;
             panelLogin.ResumeLayout(false);

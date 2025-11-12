@@ -34,7 +34,7 @@ namespace ClubManager.Views
         private void frmCEOInfor_Load(object sender, EventArgs e)
         {
             imgCEO.Image = CEOcurrent.Image.Image;
-            lblText.Text = CEOcurrent.Name + "\r\nborn on " + CEOcurrent.Ngaysinh + ", in " + CEOcurrent.Quequan + " Vietnam.\r\nCEO of Fake Madrid Club.\r\n\r\nWith Four Close Friends, he founded the club\r\nKnown for his vision, dedication, and teamwork.\r\n" + CEOcurrent.Name + " continues to guide the club\r\nToward excellence and inspire to greatness on and off the field.\r\n"+"-HCMUE-";
+            lblText.Text = CEOcurrent.Name + "\r\nborn on " + CEOcurrent.Birth + ", in " + CEOcurrent.Hometown + " Vietnam.\r\nCEO of Fake Madrid Club.\r\n\r\nWith Four Close Friends, he founded the club\r\nKnown for his vision, dedication, and teamwork.\r\n" + CEOcurrent.Name + " continues to guide the club\r\nToward excellence and inspire to greatness on and off the field.\r\n"+"-HCMUE-";
         }
 
         private void lblExit_MouseEnter(object sender, EventArgs e)

@@ -11,15 +11,15 @@ namespace ClubManager.Models
     {
         public string Name { get; set; }
         public PictureBox Image { get; set; }
-        public string Ngaysinh { get; set; }
-        public string Quequan { get; set; }
+        public string Birth { get; set; }
+        public string Hometown { get; set; }
 
-        public CEO(string name, PictureBox image, string ngaysinh, string quequan)
+        public CEO(string name, PictureBox image, string birth, string hometown)
         {
             Name = name;
             Image = image;
-            Ngaysinh = ngaysinh;
-            Quequan = quequan;
+            Birth = birth;
+            Hometown = hometown;
         }
 
         public CEO() { } // constructor rỗng phòng trường hợp cần

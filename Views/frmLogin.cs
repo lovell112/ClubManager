@@ -12,9 +12,26 @@ namespace ClubManager.Views
 {
     public partial class frmLogin : Form
     {
+        private int _iCount;
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public int iCount
+        {
+            get { return _iCount; }
+            set { _iCount = value; }
+        }
+
+        private bool _locked;
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
+        public bool locked
+        {
+            get { return _locked; }
+            set { _locked = value; }
+        }
         public frmLogin()
         {
             InitializeComponent();
+            iCount = 0;
+            locked = false;
         }
 
         private void frmLogin_Load(object sender, EventArgs e)
@@ -23,18 +40,20 @@ namespace ClubManager.Views
             btnLogin.Enabled = false;
 
             #region Gắn sự kiện theo dõi khi nhập tên
-            txtUser.TextChanged += (s, args) =>
-            {
-                bool coTen = !string.IsNullOrWhiteSpace(txtUser.Text);
-                bool coPass = !string.IsNullOrWhiteSpace(txtPass.Text);
-                if( coTen && coPass ) btnLogin.Enabled = true;
-            };
-            txtPass.TextChanged += (s, args) =>
-            {
-                bool coTen = !string.IsNullOrWhiteSpace(txtUser.Text);
-                bool coPass = !string.IsNullOrWhiteSpace(txtPass.Text);
-                if (coTen && coPass) btnLogin.Enabled = true;
-            };
+                txtUser.TextChanged += (s, args) =>
+                {
+                    if (locked) return;
+                    bool coTen = !string.IsNullOrWhiteSpace(txtUser.Text);
+                    bool coPass = !string.IsNullOrWhiteSpace(txtPass.Text);
+                    if (coTen && coPass) btnLogin.Enabled = true;
+                };
+                txtPass.TextChanged += (s, args) =>
+                {
+                    if (locked) return;
+                    bool coTen = !string.IsNullOrWhiteSpace(txtUser.Text);
+                    bool coPass = !string.IsNullOrWhiteSpace(txtPass.Text);
+                    if (coTen && coPass) btnLogin.Enabled = true;
+                };
             #endregion
         }
 
@@ -67,9 +86,28 @@ namespace ClubManager.Views
             this.Close();
         }
 
-        private void btnLogin_Click_1(object sender, EventArgs e)
+        private void btnLogin_Click(object sender, EventArgs e)
         {
+            if(txtUser.Text == "Son" && txtPass.Text == "Lo")
+            {
+                MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                this.Hide(); 
+                frmCEO mainForm = new frmCEO();
+                mainForm.Show();
+                // Thực hiện các hành động sau khi đăng nhập thành công
 
+            }
+            else
+            {
+                MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                iCount++;
+            }
+            if(iCount >= 3)
+            {
+                MessageBox.Show("Bạn đã nhập sai quá nhiều lần. Ứng dụng sẽ đóng.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                btnLogin.Enabled = false;
+                locked = true;
+            }
         }
     }
 }
