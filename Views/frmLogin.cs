@@ -19,17 +19,22 @@ namespace ClubManager.Views
 
         private void frmLogin_Load(object sender, EventArgs e)
         {
+            // 🔹 Ban đầu tắt nút xác nhận
+            btnLogin.Enabled = false;
 
-        }
-
-        private void btnThoat_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void btnLogin_Click_1(object sender, EventArgs e)
-        {
-
+            #region Gắn sự kiện theo dõi khi nhập tên
+            txtUser.TextChanged += (s, args) =>
+            {
+                bool coTen = !string.IsNullOrWhiteSpace(txtUser.Text);
+                bool coPass = !string.IsNullOrWhiteSpace(txtPass.Text);
+                if( coTen && coPass ) btnLogin.Enabled = true;
+            };
+            txtPass.TextChanged += (s, args) =>
+            {
+                bool coTen = !string.IsNullOrWhiteSpace(txtPass.Text);
+                btnLogin.Enabled = coTen;
+            };
+            #endregion
         }
 
         private void btnLogin_MouseEnter(object sender, EventArgs e)
@@ -54,6 +59,16 @@ namespace ClubManager.Views
         {
             btnThoat.BackColor = SystemColors.Control; // Màu gốc
             btnThoat.ForeColor = Color.Black;
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnLogin_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

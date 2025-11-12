@@ -88,7 +88,7 @@
             // 
             btnLogin.BackColor = Color.White;
             btnLogin.Cursor = Cursors.Hand;
-            btnLogin.Location = new Point(276, 517);
+            btnLogin.Location = new Point(100, 517);
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(130, 39);
             btnLogin.TabIndex = 2;
@@ -102,7 +102,7 @@
             // 
             btnThoat.BackColor = Color.White;
             btnThoat.Cursor = Cursors.Hand;
-            btnThoat.Location = new Point(61, 517);
+            btnThoat.Location = new Point(263, 517);
             btnThoat.Name = "btnThoat";
             btnThoat.Size = new Size(130, 39);
             btnThoat.TabIndex = 3;
@@ -116,16 +116,16 @@
             // 
             txtPass.BorderStyle = BorderStyle.FixedSingle;
             txtPass.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtPass.Location = new Point(146, 434);
+            txtPass.Location = new Point(115, 434);
             txtPass.Name = "txtPass";
             txtPass.PasswordChar = '*';
-            txtPass.Size = new Size(260, 34);
+            txtPass.Size = new Size(278, 34);
             txtPass.TabIndex = 1;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.iconPasss;
-            pictureBox1.Location = new Point(61, 428);
+            pictureBox1.Location = new Point(22, 428);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(40, 40);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -136,15 +136,15 @@
             // 
             txtUser.BorderStyle = BorderStyle.FixedSingle;
             txtUser.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtUser.Location = new Point(146, 350);
+            txtUser.Location = new Point(115, 350);
             txtUser.Name = "txtUser";
-            txtUser.Size = new Size(260, 34);
+            txtUser.Size = new Size(278, 34);
             txtUser.TabIndex = 0;
             // 
             // pictureBoxUser
             // 
             pictureBoxUser.Image = (Image)resources.GetObject("pictureBoxUser.Image");
-            pictureBoxUser.Location = new Point(61, 344);
+            pictureBoxUser.Location = new Point(22, 344);
             pictureBoxUser.Name = "pictureBoxUser";
             pictureBoxUser.Size = new Size(40, 40);
             pictureBoxUser.SizeMode = PictureBoxSizeMode.Zoom;
@@ -168,7 +168,7 @@
             labelName.Name = "labelName";
             labelName.Size = new Size(263, 64);
             labelName.TabIndex = 0;
-            labelName.Text = "   REAL MADRID \r\nCLUB DE FÚTBOL";
+            labelName.Text = "   FAKE MADRID \r\nCLUB DE FÚTBOL";
             // 
             // panelLogo
             // 
@@ -186,6 +186,7 @@
             ClientSize = new Size(844, 653);
             Controls.Add(panelLogin);
             Controls.Add(panelImage);
+            FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "frmLogin";
             Text = "LOGIN";
