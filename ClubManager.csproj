@@ -9,10 +9,20 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Compile Update="Database\DataClasses2.designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>DataClasses2.dbml</DependentUpon>
+      </Compile>
       <Compile Update="Properties\Resources.Designer.cs">
         <DesignTime>True</DesignTime>
         <AutoGen>True</AutoGen>
         <DependentUpon>Resources.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Properties\Settings.Designer.cs">
+        <DesignTimeSharedInput>True</DesignTimeSharedInput>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Settings.settings</DependentUpon>
       </Compile>
     </ItemGroup>
 
@@ -21,6 +31,21 @@
         <Generator>ResXFileCodeGenerator</Generator>
         <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Service Include="{3259aa49-8aa1-44d3-9025-a0b520596a8c}" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="Database\DataClasses2.dbml">
+        <Generator>MSLinqToSQLGenerator</Generator>
+        <LastGenOutput>DataClasses2.designer.cs</LastGenOutput>
+      </None>
+      <None Update="Properties\Settings.settings">
+        <Generator>SettingsSingleFileGenerator</Generator>
+        <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+      </None>
     </ItemGroup>
 
 </Project>

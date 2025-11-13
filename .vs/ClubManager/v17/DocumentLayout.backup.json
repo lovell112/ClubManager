@@ -1,26 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\",
+  "WorkspaceRootPath": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|d:\\hoctap\\hoctapreal\\nam2-2025\\winform\\doan\\clubmanager\\views\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:views\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|d:\\hoctap\\hoctapreal\\nam2-2025\\winform\\doan\\clubmanager\\views\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:views\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|d:\\hoctap\\hoctapreal\\nam2-2025\\winform\\doan\\clubmanager\\views\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:views\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|d:\\hoctap\\hoctapreal\\nam2-2025\\winform\\doan\\clubmanager\\views\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|c:\\2025-2026_hk1\\lap_trinh_tren_windows\\ck_doan_new\\clubmanager\\views\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:views\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|d:\\hoctap\\hoctapreal\\nam2-2025\\winform\\doan\\clubmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|c:\\2025-2026_hk1\\lap_trinh_tren_windows\\ck_doan_new\\clubmanager\\views\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:views\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|c:\\2025-2026_hk1\\lap_trinh_tren_windows\\ck_doan_new\\clubmanager\\views\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:views\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|c:\\2025-2026_hk1\\lap_trinh_tren_windows\\ck_doan_new\\clubmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\views\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:views\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|c:\\2025-2026_hk1\\lap_trinh_tren_windows\\ck_doan_new\\clubmanager\\views\\frmdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C021332A-C08C-42F6-B0B1-725F0E570EDD}|ClubManager.csproj|solutionrelative:views\\frmdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,64 +34,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmDashBoard.cs [Design]",
-              "DocumentMoniker": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Views\\frmDashBoard.cs",
-              "RelativeDocumentMoniker": "Views\\frmDashBoard.cs",
-              "ToolTip": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Views\\frmDashBoard.cs [Design]",
-              "RelativeToolTip": "Views\\frmDashBoard.cs [Design]",
+              "DocumentIndex": 5,
+              "Title": "frmDashBoard.Designer.cs",
+              "DocumentMoniker": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmDashBoard.Designer.cs",
+              "RelativeDocumentMoniker": "Views\\frmDashBoard.Designer.cs",
+              "ToolTip": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmDashBoard.Designer.cs",
+              "RelativeToolTip": "Views\\frmDashBoard.Designer.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAFIAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T14:52:46.648Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-13T03:42:14.161Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "frmLogin.cs",
-              "DocumentMoniker": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Views\\frmLogin.cs",
+              "DocumentMoniker": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmLogin.cs",
               "RelativeDocumentMoniker": "Views\\frmLogin.cs",
-              "ToolTip": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Views\\frmLogin.cs",
+              "ToolTip": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmLogin.cs",
               "RelativeToolTip": "Views\\frmLogin.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAADwv14AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAH8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T14:50:55.613Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "frmLogin.cs [Design]",
-              "DocumentMoniker": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Views\\frmLogin.cs",
+              "DocumentMoniker": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmLogin.cs",
               "RelativeDocumentMoniker": "Views\\frmLogin.cs",
-              "ToolTip": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Views\\frmLogin.cs [Design]",
+              "ToolTip": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmLogin.cs [Design]",
               "RelativeToolTip": "Views\\frmLogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T14:50:53.262Z",
@@ -95,26 +76,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "frmDashBoard.cs",
-              "DocumentMoniker": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Views\\frmDashBoard.cs",
+              "DocumentMoniker": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmDashBoard.cs",
               "RelativeDocumentMoniker": "Views\\frmDashBoard.cs",
-              "ToolTip": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Views\\frmDashBoard.cs",
-              "RelativeToolTip": "Views\\frmDashBoard.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAUwB4AAAAvAAAAAAAAAA==",
+              "ToolTip": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmDashBoard.cs*",
+              "RelativeToolTip": "Views\\frmDashBoard.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwCsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T14:39:15.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "frmDashBoard.cs [Design]",
+              "DocumentMoniker": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmDashBoard.cs",
+              "RelativeDocumentMoniker": "Views\\frmDashBoard.cs",
+              "ToolTip": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Views\\frmDashBoard.cs [Design]*",
+              "RelativeToolTip": "Views\\frmDashBoard.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T03:42:33.032Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Program.cs",
+              "DocumentMoniker": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\HOCTAP\\HocTapReal\\Nam2-2025\\Winform\\DoAn\\ClubManager\\Program.cs",
+              "ToolTip": "C:\\2025-2026_HK1\\Lap_trinh_tren_Windows\\CK_DoAN_New\\ClubManager\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-12T14:36:20.356Z",
               "EditorCaption": ""

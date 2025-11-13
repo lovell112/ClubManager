@@ -29,14 +29,12 @@ partial class frmDashBoard
     /// </summary>
     private void InitializeComponent()
     {
+        components = new System.ComponentModel.Container();
         System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDashBoard));
-        panelLeft = new Panel();
-        picC1 = new PictureBox();
-        picLogo = new PictureBox();
         statusStrip1 = new StatusStrip();
         toolStripStatusLabel1 = new ToolStripStatusLabel();
-        toolStripSplitButton1 = new ToolStripSplitButton();
         panelHeader = new Panel();
+        picC1 = new PictureBox();
         menuStrip1 = new MenuStrip();
         SystemToolStripMenuItem = new ToolStripMenuItem();
         LoginToolStripMenuItem = new ToolStripMenuItem();
@@ -47,6 +45,7 @@ partial class frmDashBoard
         TitleToolStripMenuItem = new ToolStripMenuItem();
         MatchScheduleMenuItem = new ToolStripMenuItem();
         ShopToolStripMenuItem = new ToolStripMenuItem();
+        listCeoToolStripMenuItem = new ToolStripMenuItem();
         PlayerManagementToolStripMenuItem = new ToolStripMenuItem();
         PlayerListToolStripMenuItem = new ToolStripMenuItem();
         PlayerContractToolStripMenuItem = new ToolStripMenuItem();
@@ -55,85 +54,63 @@ partial class frmDashBoard
         CoachContractToolStripMenuItem = new ToolStripMenuItem();
         ScheduleMenuItem = new ToolStripMenuItem();
         HelpToolStripMenuItem1 = new ToolStripMenuItem();
-        panelLeft.SuspendLayout();
-        ((System.ComponentModel.ISupportInitialize)picC1).BeginInit();
-        ((System.ComponentModel.ISupportInitialize)picLogo).BeginInit();
+        picLogo = new PictureBox();
+        timer1 = new System.Windows.Forms.Timer(components);
+        toolTip1 = new ToolTip(components);
+        lblInfor = new ToolStripStatusLabel();
         statusStrip1.SuspendLayout();
         panelHeader.SuspendLayout();
+        ((System.ComponentModel.ISupportInitialize)picC1).BeginInit();
         menuStrip1.SuspendLayout();
+        ((System.ComponentModel.ISupportInitialize)picLogo).BeginInit();
         SuspendLayout();
-        // 
-        // panelLeft
-        // 
-        panelLeft.Controls.Add(picC1);
-        panelLeft.Controls.Add(picLogo);
-        panelLeft.Dock = DockStyle.Left;
-        panelLeft.Location = new Point(0, 0);
-        panelLeft.Name = "panelLeft";
-        panelLeft.Size = new Size(175, 1055);
-        panelLeft.TabIndex = 0;
-        // 
-        // picC1
-        // 
-        picC1.BackgroundImage = (Image)resources.GetObject("picC1.BackgroundImage");
-        picC1.BackgroundImageLayout = ImageLayout.Stretch;
-        picC1.Location = new Point(86, 0);
-        picC1.Name = "picC1";
-        picC1.Size = new Size(80, 80);
-        picC1.TabIndex = 1;
-        picC1.TabStop = false;
-        // 
-        // picLogo
-        // 
-        picLogo.BackgroundImage = Properties.Resources.Logo;
-        picLogo.BackgroundImageLayout = ImageLayout.Stretch;
-        picLogo.Location = new Point(0, 0);
-        picLogo.Name = "picLogo";
-        picLogo.Size = new Size(80, 80);
-        picLogo.TabIndex = 0;
-        picLogo.TabStop = false;
         // 
         // statusStrip1
         // 
         statusStrip1.ImageScalingSize = new Size(20, 20);
-        statusStrip1.Items.AddRange(new ToolStripItem[] { toolStripStatusLabel1, toolStripSplitButton1 });
-        statusStrip1.Location = new Point(175, 1029);
+        statusStrip1.Items.AddRange(new ToolStripItem[] { toolStripStatusLabel1, lblInfor });
+        statusStrip1.Location = new Point(0, 1027);
         statusStrip1.Name = "statusStrip1";
-        statusStrip1.Size = new Size(1749, 26);
+        statusStrip1.Size = new Size(1924, 28);
         statusStrip1.TabIndex = 1;
         statusStrip1.Text = "statusStrip1";
         // 
         // toolStripStatusLabel1
         // 
+        toolStripStatusLabel1.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
         toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-        toolStripStatusLabel1.Size = new Size(151, 20);
+        toolStripStatusLabel1.Size = new Size(182, 22);
         toolStripStatusLabel1.Text = "toolStripStatusLabel1";
-        // 
-        // toolStripSplitButton1
-        // 
-        toolStripSplitButton1.DisplayStyle = ToolStripItemDisplayStyle.Image;
-        toolStripSplitButton1.Image = (Image)resources.GetObject("toolStripSplitButton1.Image");
-        toolStripSplitButton1.ImageTransparentColor = Color.Magenta;
-        toolStripSplitButton1.Name = "toolStripSplitButton1";
-        toolStripSplitButton1.Size = new Size(39, 24);
-        toolStripSplitButton1.Text = "toolStripSplitButton1";
         // 
         // panelHeader
         // 
+        panelHeader.Controls.Add(picC1);
         panelHeader.Controls.Add(menuStrip1);
+        panelHeader.Controls.Add(picLogo);
         panelHeader.Dock = DockStyle.Top;
-        panelHeader.Location = new Point(175, 0);
+        panelHeader.Location = new Point(0, 0);
         panelHeader.Name = "panelHeader";
-        panelHeader.Size = new Size(1749, 66);
+        panelHeader.Size = new Size(1924, 88);
         panelHeader.TabIndex = 2;
+        // 
+        // picC1
+        // 
+        picC1.BackgroundImage = (Image)resources.GetObject("picC1.BackgroundImage");
+        picC1.BackgroundImageLayout = ImageLayout.Stretch;
+        picC1.Location = new Point(1758, 0);
+        picC1.Name = "picC1";
+        picC1.Size = new Size(80, 80);
+        picC1.TabIndex = 1;
+        picC1.TabStop = false;
         // 
         // menuStrip1
         // 
+        menuStrip1.Dock = DockStyle.None;
         menuStrip1.ImageScalingSize = new Size(20, 20);
         menuStrip1.Items.AddRange(new ToolStripItem[] { SystemToolStripMenuItem, CategoryToolStripMenuItem, PlayerManagementToolStripMenuItem, ManageCoachToolStripMenuItem, ScheduleMenuItem, HelpToolStripMenuItem1 });
         menuStrip1.Location = new Point(0, 0);
         menuStrip1.Name = "menuStrip1";
-        menuStrip1.Size = new Size(1749, 34);
+        menuStrip1.Size = new Size(885, 34);
         menuStrip1.TabIndex = 0;
         menuStrip1.Text = "menuStrip1";
         // 
@@ -143,59 +120,72 @@ partial class frmDashBoard
         SystemToolStripMenuItem.Font = new Font("Times New Roman", 13.2000008F, FontStyle.Regular, GraphicsUnit.Point, 0);
         SystemToolStripMenuItem.Name = "SystemToolStripMenuItem";
         SystemToolStripMenuItem.Size = new Size(138, 30);
-        SystemToolStripMenuItem.Text = "HỆ THỐNG";
+        SystemToolStripMenuItem.Text = "&HỆ THỐNG";
         // 
         // LoginToolStripMenuItem
         // 
+        LoginToolStripMenuItem.Image = Properties.Resources.iconLogin;
         LoginToolStripMenuItem.Name = "LoginToolStripMenuItem";
-        LoginToolStripMenuItem.Size = new Size(230, 30);
-        LoginToolStripMenuItem.Text = "ĐĂNG NHẬP";
+        LoginToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.Alt | Keys.L;
+        LoginToolStripMenuItem.Size = new Size(348, 30);
+        LoginToolStripMenuItem.Text = "&ĐĂNG NHẬP";
         LoginToolStripMenuItem.Click += LoginToolStripMenuItem_Click;
         // 
         // toolStripSeparator1
         // 
         toolStripSeparator1.Name = "toolStripSeparator1";
-        toolStripSeparator1.Size = new Size(227, 6);
+        toolStripSeparator1.Size = new Size(345, 6);
         // 
         // LogoutToolStripMenuItem
         // 
         LogoutToolStripMenuItem.Name = "LogoutToolStripMenuItem";
-        LogoutToolStripMenuItem.Size = new Size(230, 30);
-        LogoutToolStripMenuItem.Text = "ĐĂNG XUẤT";
+        LogoutToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.Alt | Keys.O;
+        LogoutToolStripMenuItem.Size = new Size(348, 30);
+        LogoutToolStripMenuItem.Text = "ĐĂNG &XUẤT";
         LogoutToolStripMenuItem.Click += LogoutToolStripMenuItem_Click;
         // 
         // ExitToolStripMenuItem
         // 
         ExitToolStripMenuItem.Name = "ExitToolStripMenuItem";
-        ExitToolStripMenuItem.Size = new Size(230, 30);
-        ExitToolStripMenuItem.Text = "THOÁT";
+        ExitToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.Alt | Keys.E;
+        ExitToolStripMenuItem.Size = new Size(348, 30);
+        ExitToolStripMenuItem.Text = "&THOÁT";
         ExitToolStripMenuItem.Click += ExitToolStripMenuItem_Click;
         // 
         // CategoryToolStripMenuItem
         // 
-        CategoryToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { TitleToolStripMenuItem, MatchScheduleMenuItem, ShopToolStripMenuItem });
+        CategoryToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { TitleToolStripMenuItem, MatchScheduleMenuItem, ShopToolStripMenuItem, listCeoToolStripMenuItem });
         CategoryToolStripMenuItem.Font = new Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
         CategoryToolStripMenuItem.Name = "CategoryToolStripMenuItem";
+        CategoryToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.Alt | Keys.D;
         CategoryToolStripMenuItem.Size = new Size(144, 30);
-        CategoryToolStripMenuItem.Text = "DANH MỤC";
+        CategoryToolStripMenuItem.Text = "&DANH MỤC";
         // 
         // TitleToolStripMenuItem
         // 
         TitleToolStripMenuItem.Name = "TitleToolStripMenuItem";
-        TitleToolStripMenuItem.Size = new Size(246, 30);
-        TitleToolStripMenuItem.Text = "DANH HIỆU";
+        TitleToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.Alt | Keys.T;
+        TitleToolStripMenuItem.Size = new Size(333, 30);
+        TitleToolStripMenuItem.Text = "DANH &HIỆU";
         // 
         // MatchScheduleMenuItem
         // 
         MatchScheduleMenuItem.Name = "MatchScheduleMenuItem";
-        MatchScheduleMenuItem.Size = new Size(246, 30);
+        MatchScheduleMenuItem.Size = new Size(333, 30);
         MatchScheduleMenuItem.Text = "LỊCH THI ĐẤU";
         // 
         // ShopToolStripMenuItem
         // 
         ShopToolStripMenuItem.Name = "ShopToolStripMenuItem";
-        ShopToolStripMenuItem.Size = new Size(246, 30);
+        ShopToolStripMenuItem.Size = new Size(333, 30);
         ShopToolStripMenuItem.Text = "CỬA HÀNG";
+        // 
+        // listCeoToolStripMenuItem
+        // 
+        listCeoToolStripMenuItem.Name = "listCeoToolStripMenuItem";
+        listCeoToolStripMenuItem.Size = new Size(333, 30);
+        listCeoToolStripMenuItem.Text = "DANH SÁCH CEO";
+        listCeoToolStripMenuItem.Click += listCeoToolStripMenuItem_Click;
         // 
         // PlayerManagementToolStripMenuItem
         // 
@@ -252,6 +242,27 @@ partial class frmDashBoard
         HelpToolStripMenuItem1.Size = new Size(110, 30);
         HelpToolStripMenuItem1.Text = "HỖ TRỢ";
         // 
+        // picLogo
+        // 
+        picLogo.BackgroundImage = Properties.Resources.Logo;
+        picLogo.BackgroundImageLayout = ImageLayout.Stretch;
+        picLogo.Location = new Point(1844, 0);
+        picLogo.Name = "picLogo";
+        picLogo.Size = new Size(80, 80);
+        picLogo.TabIndex = 0;
+        picLogo.TabStop = false;
+        // 
+        // timer1
+        // 
+        timer1.Tick += timer1_Tick;
+        // 
+        // lblInfor
+        // 
+        lblInfor.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+        lblInfor.Name = "lblInfor";
+        lblInfor.Size = new Size(174, 22);
+        lblInfor.Text = "Bạn chưa đăng nhập!";
+        // 
         // frmDashBoard
         // 
         AutoScaleDimensions = new SizeF(8F, 20F);
@@ -259,34 +270,27 @@ partial class frmDashBoard
         ClientSize = new Size(1924, 1055);
         Controls.Add(panelHeader);
         Controls.Add(statusStrip1);
-        Controls.Add(panelLeft);
         Icon = (Icon)resources.GetObject("$this.Icon");
         Name = "frmDashBoard";
         StartPosition = FormStartPosition.CenterScreen;
         Text = "Dashboard";
         WindowState = FormWindowState.Maximized;
         Load += frmDashBoard_Load;
-        panelLeft.ResumeLayout(false);
-        ((System.ComponentModel.ISupportInitialize)picC1).EndInit();
-        ((System.ComponentModel.ISupportInitialize)picLogo).EndInit();
         statusStrip1.ResumeLayout(false);
         statusStrip1.PerformLayout();
         panelHeader.ResumeLayout(false);
         panelHeader.PerformLayout();
+        ((System.ComponentModel.ISupportInitialize)picC1).EndInit();
         menuStrip1.ResumeLayout(false);
         menuStrip1.PerformLayout();
+        ((System.ComponentModel.ISupportInitialize)picLogo).EndInit();
         ResumeLayout(false);
         PerformLayout();
     }
 
     #endregion
-
-    private Panel panelLeft;
-    private PictureBox picLogo;
-    private PictureBox picC1;
     private StatusStrip statusStrip1;
     private ToolStripStatusLabel toolStripStatusLabel1;
-    private ToolStripSplitButton toolStripSplitButton1;
     private Panel panelHeader;
     private MenuStrip menuStrip1;
     private ToolStripMenuItem SystemToolStripMenuItem;
@@ -306,4 +310,10 @@ partial class frmDashBoard
     private ToolStripMenuItem PlayerContractToolStripMenuItem;
     private ToolStripMenuItem ListCoachToolStripMenuItem;
     private ToolStripMenuItem CoachContractToolStripMenuItem;
+    private ToolStripMenuItem listCeoToolStripMenuItem;
+    private System.Windows.Forms.Timer timer1;
+    private ToolTip toolTip1;
+    private PictureBox picLogo;
+    private PictureBox picC1;
+    private ToolStripStatusLabel lblInfor;
 }

@@ -176,6 +176,7 @@
             lblExit.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             lblExit.AutoSize = true;
             lblExit.BackColor = Color.Transparent;
+            lblExit.Cursor = Cursors.Hand;
             lblExit.Font = new Font("Microsoft Sans Serif", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblExit.ForeColor = Color.Black;
             lblExit.Location = new Point(1829, 0);

@@ -87,23 +87,44 @@ namespace ClubManager.Views
             this.Close();
         }
 
+        public bool IsLoginSuccess = false;
+        public string LoggedUser = ""; 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if(txtUser.Text == "Son" && txtPass.Text == "Lo")
+            string user = txtUser.Text.Trim();
+            string pass = txtPass.Text.Trim();
+
+            if (string.IsNullOrWhiteSpace(user) || string.IsNullOrWhiteSpace(pass))
             {
-                MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Bạn cần nhập đầy đủ thông tin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            if (user == "CEO" && pass == "ceo!")
+            {
+                MessageBox.Show("Xin chào CEO!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                LoggedUser = "CEO";
+                IsLoginSuccess = true;
+                this.Close(); // Đóng form login
+            }
+            else if (user == "CT" && pass == "ct!")
+            {
+                MessageBox.Show("Xin chào Cầu thủ!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                LoggedUser = "Cầu thủ";
+                IsLoginSuccess = true;
+                this.Close();
+            }
+            else if (user == "HLV" && pass == "hlv!")
+            {
+                MessageBox.Show("Xin chào HLV!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                LoggedUser = "HLV";
+                IsLoginSuccess = true;
                 this.Close();
             }
             else
             {
-                MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                iCount++;
-            }
-            if(iCount >= 3)
-            {
-                MessageBox.Show("Bạn đã nhập sai quá nhiều lần. Ứng dụng sẽ đóng.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                btnLogin.Enabled = false;
-                locked = true;
+                MessageBox.Show("Thông tin không hợp lệ!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtUser.Focus();
             }
         }
     }
